@@ -348,8 +348,8 @@
 		2592B81B16FF84A4004573FF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3725016E3AE1500190862 /* AFNetworkActivityIndicatorManager.m */; };
 		259A5EC616F2E1EF00AF9F35 /* ADNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC370E116E0805E00190862 /* ADNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25C0AA45171867B8006E47B7 /* CustomPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C0AA44171867B8006E47B7 /* CustomPost.m */; };
-		331B250F17A247DF000E553E /* ANKSearchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 331B250D17A247DF000E553E /* ANKSearchQuery.h */; };
-		331B251017A247DF000E553E /* ANKSearchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 331B250D17A247DF000E553E /* ANKSearchQuery.h */; };
+		331B250F17A247DF000E553E /* ANKSearchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 331B250D17A247DF000E553E /* ANKSearchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331B251017A247DF000E553E /* ANKSearchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 331B250D17A247DF000E553E /* ANKSearchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		331B251117A247DF000E553E /* ANKSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B250E17A247DF000E553E /* ANKSearchQuery.m */; };
 		331B251217A247DF000E553E /* ANKSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B250E17A247DF000E553E /* ANKSearchQuery.m */; };
 		5D2CFEE61703E8F200086FBD /* ANKTokenLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2CFEE41703E8F200086FBD /* ANKTokenLimits.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1703,10 +1703,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1729,10 +1726,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
