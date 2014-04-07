@@ -1,5 +1,5 @@
 [submodule "External/AFNetworking"]
 	path = External/AFNetworking
-	url = https://github.com/AFNetworking/AFNetworking
+url=git@github.com:blackpixel/AFNetworking.git
 	ignore = dirty
 
