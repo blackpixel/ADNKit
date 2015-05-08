@@ -1166,7 +1166,7 @@
 			name = ADNKitTests;
 			productName = ADNKitTests;
 			productReference = 2592B7A016FCED64004573FF /* ADNKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		2592B7C416FF8410004573FF /* ADNKit-AFNetworking-iOS */ = {
 			isa = PBXNativeTarget;
@@ -1228,6 +1228,7 @@
 		5DC370D116E0805E00190862 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Afterwork Studios";
 			};
